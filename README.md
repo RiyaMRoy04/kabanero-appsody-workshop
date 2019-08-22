@@ -2,6 +2,8 @@
 
 ### To create a free Kubernetes cluster:
 
+1. In the IBM Cloud Catalog, Create a **Continuous Delivery** service
+
 1. In the IBM Cloud Catalog, select Kubernetes Cluster and click Create. A cluster configuration page opens. By default, Free cluster is selected.
 
 2. Give your cluster a unique name and select Geography --> North America && Metro --> Dallas.
@@ -10,11 +12,13 @@
 
 **The worker node can take a few minutes to provision, but you can see the progress in the Worker nodes tab. When the status reaches Ready, you can start working with your cluster!**
 
-4. Click on DevOps and click on **Create a Toolchain** 
+4. Click on **DevOps** and click on **Create a Toolchain** 
 
-5. 
+5. Click on **Develop a Kubernetes app** 
 
+6. In the redirected page, select Dallas as the region for Toolchain and in Delivery pipeline, click CREATE next to **IBM Cloud API Key** and click on **CREATE** the toolchain.
 
+7. 
 
 
 
