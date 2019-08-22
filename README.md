@@ -28,32 +28,34 @@
 1. Docker Installation- https://docs.docker.com/get-started/
 2. Appsody Installation- https://appsody.dev/docs/getting-started/installation
 
-Steps:
+### Steps:
 
 1. First, choose a development stack. To see all the available stacks, run:
 
 ``
       appsody list
-``
+            ``
 
 2. Create a fully functional Appsody project using the nodejs-express stack:
 
 ``
-  mkdir my-project
-  cd my-project
-  appsody init nodejs-express
+      mkdir my-project
+      
+      cd my-project
+      
+      appsody init nodejs-express
 ``
 
 3. Start the development container:
 
 ``
-appsody run
+      appsody run
 ``
 
 Great! Now the project is running in a docker container, and the container is linked to the project source code on your local system. For nodejs-express, navigate to http://localhost:3000 to see the output.
 
 
-Now let's try changing the code!
+### Now let's try changing the code!
 
 
 Edit the file app.js to output something other than "Hello from Appsody!".
@@ -64,6 +66,8 @@ vi app.js
 
 **When you save the file, Appsody picks up the change and automatically updates the container.** Refresh http://localhost:3000 to see the new message!
 
+
 You now have a containerized application that's ready to deploy to a suitable runtime infrastructure such as a cloud platform that hosts a Kubernetes cluster.
 
-Refer to deploying your app directly to a Kubernetes cluster https://appsody.dev/docs/using-appsody/building-and-deploying
+
+Refer to [deploying your app directly to a Kubernetes cluster](https://appsody.dev/docs/using-appsody/building-and-deploying) for more information on deploying to IBM Cloud Kubernetes cluster.
