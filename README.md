@@ -1,6 +1,4 @@
-# Workshop 1
-
-## Create a free Kubernetes cluster with one worker node and deploy your first app to IBM Cloud.
+# Workshop 1- Create a free Kubernetes cluster with one worker node and deploy your first app to IBM Cloud.
 
 ### To create a free Kubernetes cluster:
 
@@ -21,7 +19,7 @@
 
 
 
-# Workshop 2
+# Workshop 2- Build cloud-native apps faster for Kubernetes with Kabanero
 
 ### Pre-requisites
 
@@ -33,23 +31,21 @@
 1. First, choose a development stack. To see all the available stacks, run:
 
 ``
-      appsody list
+      $ appsody list
             ``
 
 2. Create a fully functional Appsody project using the nodejs-express stack:
 
-``
-      mkdir my-project
-      
-      cd my-project
-      
-      appsody init nodejs-express
-``
+     ```
+      $ mkdir my-project
+      $ cd my-project
+      $ appsody init nodejs-express
+      ```
 
 3. Start the development container:
 
 ``
-      appsody run
+      $ appsody run
 ``
 
 Great! Now the project is running in a docker container, and the container is linked to the project source code on your local system. For nodejs-express, navigate to http://localhost:3000 to see the output.
