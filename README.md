@@ -26,8 +26,6 @@
 
 ![DevOps](/images/7.png)
 
-![DevOps](/images/1.png)
-
 7. Click Delivery Pipeline and you can see the BUILD, CONTAINERIZE and DEPLOY stage.
 
 ![DevOps](/images/6.png)
@@ -42,6 +40,10 @@
 
 9. VIEW the application in the URL mentioned near **VIEW THE APPLICATION AT**
 
+
+NEXT STEPS:
+
+Let's change the code in app.js by opening ECLIPSE ORION WEB IDE and then push the changes through DELIVERY PIPELINE.
 
 # Workshop 2- Build cloud-native apps faster for Kubernetes with Kabanero
 
