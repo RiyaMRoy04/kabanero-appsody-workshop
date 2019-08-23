@@ -14,13 +14,33 @@
 
 4. Click on **DevOps** and click on **Create a Toolchain** 
 
+![DevOps](/images/9.png)
+
 5. Click on **Develop a Kubernetes app** 
+
+![DevOps](/images/1.png)
 
 6. In the redirected page, select Dallas as the region for Toolchain and in Delivery pipeline, click CREATE next to **IBM Cloud API Key** and click on **CREATE** the toolchain.
 
-7. 
+![DevOps](/images/8.png)
 
+![DevOps](/images/7.png)
 
+![DevOps](/images/1.png)
+
+7. Click Delivery Pipeline and you can see the BUILD, CONTAINERIZE and DEPLOY stage.
+
+![DevOps](/images/6.png)
+
+![DevOps](/images/delivery_pipeline.png)
+
+8. Click on Deploy to Kubernetes within DEPLOY stage.
+
+![DevOps](/images/2.png)
+
+![DevOps](/images/5.png)
+
+9. VIEW the application in the URL mentioned near **VIEW THE APPLICATION AT**
 
 
 # Workshop 2- Build cloud-native apps faster for Kubernetes with Kabanero
