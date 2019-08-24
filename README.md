@@ -1,5 +1,9 @@
 # Workshop 1- Create a free Kubernetes cluster with one worker node and deploy your first app to IBM Cloud.
 
+### Pre-requisites
+
+IBM Cloud Account- [https://ibm.biz/BdzbAW](https://ibm.biz/BdzbAW)
+
 ### To create a free Kubernetes cluster:
 
 1. In the IBM Cloud Catalog, Create a **Continuous Delivery** service
