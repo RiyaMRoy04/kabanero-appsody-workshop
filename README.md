@@ -56,7 +56,55 @@ Let's change the code in app.js by opening ECLIPSE ORION WEB IDE and then push t
 1. Docker Installation- https://docs.docker.com/get-started/
 2. Appsody Installation- https://appsody.dev/docs/getting-started/installation
 
-### Steps:
+### Installation Steps (if pre-requisites isn't working) :
+
+## 1. Sign up on Docker
+https://hub.docker.com/
+
+## 2. Get the environment
+
+https://www.katacoda.com/courses/ubuntu/playground1804
+
+Sign in using your Gmail id.
+
+
+## 3. Check the OS
+
+```
+$ cat /etc/os-release
+```
+
+output should be
+
+```
+NAME="Ubuntu"
+VERSION="18.04.2 LTS (Bionic Beaver)"
+ID=ubuntu
+ID_LIKE=debian
+PRETTY_NAME="Ubuntu 18.04.2 LTS"
+VERSION_ID="18.04"
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+VERSION_CODENAME=bionic
+UBUNTU_CODENAME=bionic
+```
+
+## 4. Install Appsody
+
+Get installable
+```
+$ wget https://github.com/appsody/appsody/releases/download/0.2.8/appsody_0.2.8_amd64.deb
+```
+
+Install Appsody
+```
+$ sudo apt install ./appsody_0.2.8_amd64.deb
+
+```
+
+### Steps
 
 1. First, choose a development stack. To see all the available stacks, run:
 
